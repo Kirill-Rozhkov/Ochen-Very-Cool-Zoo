@@ -3,12 +3,13 @@ package models;
 import java.util.ArrayList;
 
 public class Player {
-    private int coins = 0;
+    private int coins = 500;
     private int animal_coins = 0;
     private ArrayList<Item> bag;
+    private WalletTimer walletTimer;
 
-    public Player () {
-
+    public Player() {
+        walletTimer = new WalletTimer(5);
     }
 
     public int getCoins() {
@@ -20,8 +21,14 @@ public class Player {
     }
 
     public void addCoins() {
-        coins += 100;
+        if (walletTimer.isTimeExpired()) {
+            coins += 100;
+            System.out.println("Coins added!");
+        } else {
+            System.out.println("It's early to add coins");
+        }
     }
+
     public void removeCoins(int c) {
         coins -= c;
     }
@@ -29,6 +36,7 @@ public class Player {
     public void addAnimalCoins() {
         animal_coins += 5;
     }
+
     public void removeAnimalCoins() {
         animal_coins -= 50;
     }

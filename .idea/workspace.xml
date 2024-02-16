@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a53b8d6a-6893-4060-8614-6f2291a513da" name="Changes" comment="Added some new data in model classes, tested animal class, created new empty files for the future">
-      <change afterPath="$PROJECT_DIR$/src/models/Store.java" afterDir="false" />
+    <list default="true" id="a53b8d6a-6893-4060-8614-6f2291a513da" name="Changes" comment="Created store class and added little changes">
+      <change afterPath="$PROJECT_DIR$/src/data/PostgresDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/WalletTimer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/PostrgresDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/interfaces/IDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/interfaces/IDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +92,21 @@
       <workItem from="1707829736777" duration="13000" />
       <workItem from="1707829756776" duration="1949000" />
       <workItem from="1707831763370" duration="384000" />
-      <workItem from="1707832470199" duration="1514000" />
+      <workItem from="1707832470199" duration="2401000" />
+      <workItem from="1708079490590" duration="36000" />
+      <workItem from="1708079902972" duration="316000" />
+      <workItem from="1708080371936" duration="611000" />
+      <workItem from="1708081112074" duration="2351000" />
+      <workItem from="1708084041307" duration="139000" />
+      <workItem from="1708084209612" duration="496000" />
+      <workItem from="1708084759978" duration="10000" />
+      <workItem from="1708084777299" duration="169000" />
+      <workItem from="1708084978050" duration="33000" />
+      <workItem from="1708085095179" duration="26000" />
+      <workItem from="1708085137985" duration="97000" />
+      <workItem from="1708085282508" duration="179000" />
+      <workItem from="1708085506661" duration="46000" />
+      <workItem from="1708085573566" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="Created the project">
       <option name="closed" value="true" />
@@ -140,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707831964885</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created store class and added little changes">
+      <option name="closed" value="true" />
+      <created>1707835059894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707835059894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +176,7 @@
     <MESSAGE value="Changed structure of the project" />
     <MESSAGE value="Created new Classes in &quot;models&quot; folder" />
     <MESSAGE value="Added some new data in model classes, tested animal class, created new empty files for the future" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some new data in model classes, tested animal class, created new empty files for the future" />
+    <MESSAGE value="Created store class and added little changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created store class and added little changes" />
   </component>
 </project>
